@@ -273,6 +273,7 @@ button.focus-visible:focus-visible {
     align-items: center;
     justify-content: space-between;
     padding: 40px;
+    width: 100%;
 }
 .footer-next {
     flex: 1;

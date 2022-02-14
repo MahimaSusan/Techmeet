@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet prefetch" href="styles.css"></link>
+<link rel="stylesheet preload" as="font" href="iconHome.css">
+<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></link>
+<link rel="preload" as="image" href="images/image1.png" imagesrcset="images/image2.png 400w, images/image3.png 800w, images/image4.png 1600w" imagesizes="50vw">
+</head>
+<body>
+    <header>
+        <a class="header-head" href="index-scroll.html">UI Tweaks</a>
+        <div class="view no-border">
+            <ul class="side-links inView">
+                <li>
+                    <a href="#">
+                        <img src="images/search.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/menu.svg">
+                    </a>
+                </li>
+            </ul>
+            <ul class="side-links outView">
+                <li>
+                    <a href="#" class="search"></a>
+                </li>
+                <li>
+                    <a href="#" class="menu"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="banner">
+        <h1>Conventional approach and the best ways</h1>
+        <div class="view">
+            <div class="transition inView">
+                <a href="#" class="no-transition">About Us</a>
+            </div>
+            <div class="transition outView">
+                <a href="#" class="with-transition">About Us</a>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper">
+        
+        <!-- <div class="nth-child">
+            <h2>nth-child Selector</h2>
+            <ul class="nth">
+                <li>first-child</li>
+                <li>second-child</li>
+                <li>third-child</li>
+                <li>fourth-child</li>
+                <li>fifth-child</li>
+            </ul>
+            <h2>not: selector</h2>
+            <ul class="not">
+                <li>first-child</li>
+                <li>second-child</li>
+                <li>third-child</li>
+                <li>fourth-child</li>
+                <li>fifth-child</li>
+            </ul>
+        </div> -->
+
+        <div class="view">
+            <div class="inView">
+                <h2>Find our our logo</h2>
+                <img src="images/image1.png" alt="">        
+            </div>
+            <div class="preload outView">
+                <h2>Usage of preload</h2>
+                <p>Preload lets you tell the browser about critical resources that you want to load as soon as possible, before they are discovered in HTML. This is especially useful for resources that are not easily discoverable, such as fonts included in stylesheets, background images, or resources loaded from a script.</p>
+                <img src="images/preload.png">
+            </div>
+        </div>
+
+
+        <div class="view">
+            <h2>Our Works</h2>
+            <div class="inView">
+                <div class="flex-container">
+                    <div class="item">
+                        <span>Innovative Products</span>
+                        <p>Turn data to your advantage and design products that better reflect your customers’ behaviors, preferences, aspirations, and price sensitivities.</p>
+                    </div>
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                  </div>
+            </div>
+            <div class="grid outView">
+                <div class="grid-container">
+                    <div class="item"><span>Flex and Grid</span>
+                        <p>Turn data to your advantage and design products that better reflect your customers’ behaviors, preferences, aspirations, and price sensitivities.</p>
+                    </div>
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                  </div>
+                  <a class="link" href="https://codepen.io/tutsplus/pen/YGQKry">Grid and Flex Together</a>
+
+                </div>
+        </div>
+        <div class="view">
+            <h2>Moee Stories</h2>
+            <div class="logoWrapper inView">
+                <p class="logoBox">
+                    <img src="images/image1.png">
+                </p>
+                <p class="logoBox">
+                    <img src="images/image2.png">
+                </p>
+                <p class="logoBox">
+                    <img src="images/image3.png">
+                </p>
+                <p class="logoBox">
+                    <img src="images/image4.png">
+                </p>
+                <p class="logoBox">
+                    <img src="images/image5.png">
+                </p>
+            </div>
+            <div class="logoWrapper outView">
+                <p class="logoBox">
+                    <span class="logoIns logoOne"></span>
+                </p>
+                <p class="logoBox">
+                    <span class="logoIns logoTwo"></span>
+                </p>
+                <p class="logoBox">
+                    <span class="logoIns logoThree"></span>
+                </p>
+                <p class="logoBox">
+                    <span class="logoIns logoFour"></span>
+                </p>
+                <p class="logoBox">
+                    <span class="logoIns logoFive"></span>
+                </p>
+            </div>
+        </div>
+        <div class="view">
+            <div class="inView">
+                <div class="normal-media">
+                    <h2>Normal media query</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="outView">
+                <div class="level4-media">
+                    <h2>Level4 media query</h2>
+                    <p>The Media Queries Level 4 specification has reasonable support in modern browsers, but some media features are not well supported.</p>
+                    <img src="images/level4-media.png">
+                </div>
+            </div>
+        </div>
+        <div class="view">
+            <div class="inView">
+                <h2>:has()</h2>
+                <p>The :has() CSS pseudo-class represents an element if any of the selectors passed as parameters match at least one element.</p>
+                <p>let test = document.querySelector('a:has(> img)');</p>
+                <a class="link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:is">:is()</a>
+            </div>
+            <div class="has outView">
+                <p>had a limitation that it couldn't be used within stylesheets due to performance concerns. This limitation has been removed because no browser implemented it that way.</p>
+                <p>a:has(> img)</p>
+                <p>Still it is supported in Safari only</p>
+            </div>
+        </div>
+
+    </section>
+    <div class="view no-border">
+        <div class="inView">
+            <div class="footer">
+                <button class="focus-visible">Contact US</button>
+                <button class="no-focus-visible">Work with Us</button>
+                <ul class="socialIcons">
+                    <li>
+                        <a class="facebook" href="">Facebook Icon</a>
+                        <a class="twitter" href="">Twitter Icon</a>
+                        <a class="dribbble" href="">Dribbble Icon</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="outView">
+            <div class="footer">
+                <div class="footer-next">
+                    <button class="focus-visible">Contact US</button>
+                    <button class="no-focus-visible">Work with Us</button>
+                    <p>Instead of simply using :focus over elements like buttons, use :focus-visible to style the targeted element to make that style applicable only on keyboard tabbing and not on mouse clicks</p>
+                </div>
+                <ul class="socialIcons">
+                    <li>
+                        <a class="facebook colorize-navy" href="">Facebook Icon</a>
+                    </li>
+                    <li>
+                        <a class="twitter colorize-blue" href="">Twitter Icon</a>
+                    </li>
+                    <li>
+                        <a class="dribbble colorize-pink" href="">Dribbble Icon</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

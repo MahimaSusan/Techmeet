@@ -148,6 +148,9 @@ img {
 .has {
     flex-direction: column;
 }
+.hasCss {
+    width: 30%;
+}
 .transition a:hover {
     color: #f44336ed;
 }

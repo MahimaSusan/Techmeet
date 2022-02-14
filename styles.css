@@ -80,6 +80,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 15px;
+    flex-direction: column;
 }
 .logoBox {
     align-items: center;
@@ -272,7 +273,7 @@ button.focus-visible:focus-visible {
     align-items: center;
     justify-content: space-between;
     padding: 40px;
-    width: 100%;
+    width: auto;
 }
 .footer-next {
     flex: 1;

@@ -213,6 +213,9 @@ img {
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     grid-gap: 1rem;
 }
+.linkWrapper {
+    margin-top: 30px;
+}
 .link {
     color: #f44336f2;
     font-weight: 600;
@@ -268,13 +271,15 @@ button.focus-visible:focus-visible {
 :root {
     --iconSize: 25px;
 }
+.outView .footer {
+    width: 100%;
+}
 .footer {
     background-color: #f4433647;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
-    width: auto;
 }
 .footer-next {
     flex: 1;

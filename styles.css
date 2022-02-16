@@ -34,6 +34,11 @@ header .view {
     font-size: 34px;
     font-weight: 600;
 }
+.svg-wrapper>div {
+    background: #f443369c;
+    width: 200px;
+    float: right;
+}
 .side-links {
     align-items: center;
     display: flex;
@@ -154,7 +159,7 @@ img {
     color: #f44336ed;
 }
 .transition .with-transition {
-    transition: color .5s ease;
+    transition: color 1s ease;
 }
 .transition .no-transition {
     transition: 0
@@ -209,7 +214,6 @@ img {
 /*grif*/
 .grid-container {
     display: grid;
-    grid-auto-columns: minmax(15rem, auto);
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     grid-gap: 1rem;
 }

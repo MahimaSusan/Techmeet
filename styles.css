@@ -123,6 +123,7 @@ h2 {
     background-position: -687px -16px;
 }
 /*content-visibility*/
+.logoWrapper,
 img {
     content-visibility: auto;
 }
